@@ -29,6 +29,7 @@ int main() {
     // Inclua o uso de continue e break dentro dos loops.
 
     int r = 0, t = 0, b = 0;
+    int movimentoCompleto = 1;
     
     //Movimento da Rainha
     while ( r <= 8) {
@@ -63,6 +64,15 @@ int main() {
         else {
             printf("cima-direita\n");
         }   
+    }
+
+    // Movimento do Cavalo
+    while (movimentoCompleto--){
+
+        for (int c = 0; c < 2; c++) {
+            printf("Baixo!\n");
+            }
+        printf("Esquerda!\n");
     }
 
     return 0;
